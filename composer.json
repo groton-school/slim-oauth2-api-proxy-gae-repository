@@ -1,0 +1,26 @@
+{
+  "name": "groton-school/slim-oauth2-api-proxy-gae-repository",
+  "require": {
+    "groton-school/slim-oauth2-api-proxy": "^3.0.1",
+    "google/cloud-firestore": "^1.53",
+    "psr/http-message": "^2.0"
+  },
+  "license": "GPL-3.0",
+  "autoload": {
+    "psr-4": {
+      "GrotonSchool\\Slim\\OAuth2\\APIProxy\\GAE\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Seth Battis",
+      "email": "sbattis@groton.org"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.87",
+    "marcocesarato/php-conventional-changelog": "^1.17"
+  }
+}

@@ -2,7 +2,7 @@
 
 Firestore access token repository for Slim OAuth2 API proxy running on Google App Engine
 
-[![Latest Version](https://img.shields.io/packagist/v/groton-school/slim-oauth2-api-proxy.svg)](https://packagist.org/packages/groton-school/slim-oauth2-api-proxy)
+[![Latest Version](https://img.shields.io/packagist/v/groton-school/slim-oauth2-api-proxy-gae-repository.svg)](https://packagist.org/packages/groton-school/slim-oauth2-api-proxy-gae-repository)
 
 ## Install
 

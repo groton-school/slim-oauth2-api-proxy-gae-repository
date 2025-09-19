@@ -50,19 +50,22 @@ class AccessTokenRepository extends AbstractAccessTokenRepository
     }
 
     public function setToken(
-        AccessToken $token,
+        ?AccessToken $token,
         ServerRequest $request,
         ResponseInterface $response
     ): ResponseInterface {
-        $document = $this->firestore->document(
-            $this->getLocator(
-                $request->getAttribute(
-                    AbstractUserIdentifierMiddleware::USER_IDENTIFIER
+        if ($token) {
+            $document = $this->firestore->document(
+                $this->getLocator(
+                    $request->getAttribute(
+                        AbstractUserIdentifierMiddleware::USER_IDENTIFIER
+                    )
                 )
-            )
-        );
-        $document->set($token->jsonSerialize());
-        return $response;
+            );
+            $document->set($token->jsonSerialize());
+            return $response;
+        }
+        return $this->deleteToken($request, $response);
     }
 
     public function deleteToken(

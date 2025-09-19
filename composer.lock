@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01250a8335f0e04d8d5c0f97860c4ad9",
+    "content-hash": "f71a2f5f65767eaf6ffdf45aa64014ec",
     "packages": [
         {
             "name": "brick/math",
@@ -674,16 +674,16 @@
         },
         {
             "name": "groton-school/slim-norms",
-            "version": "2.0.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/groton-school/slim-norms.git",
-                "reference": "7fd55e8fdc2a76b415a06858c0c47aa6995c7e18"
+                "reference": "b5afd522f3c3d1aa764219e9b09db334f62c6988"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/groton-school/slim-norms/zipball/7fd55e8fdc2a76b415a06858c0c47aa6995c7e18",
-                "reference": "7fd55e8fdc2a76b415a06858c0c47aa6995c7e18",
+                "url": "https://api.github.com/repos/groton-school/slim-norms/zipball/b5afd522f3c3d1aa764219e9b09db334f62c6988",
+                "reference": "b5afd522f3c3d1aa764219e9b09db334f62c6988",
                 "shasum": ""
             },
             "require": {
@@ -715,28 +715,28 @@
             "description": "Define some normal interfaces and abstract classes for working with the Slim Framework",
             "support": {
                 "issues": "https://github.com/groton-school/slim-norms/issues",
-                "source": "https://github.com/groton-school/slim-norms/tree/v2.0.0"
+                "source": "https://github.com/groton-school/slim-norms/tree/v2.1.1"
             },
-            "time": "2025-09-09T20:35:47+00:00"
+            "time": "2025-09-19T01:23:33+00:00"
         },
         {
             "name": "groton-school/slim-oauth2-api-proxy",
-            "version": "3.0.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/groton-school/slim-oauth2-api-proxy.git",
-                "reference": "6b433c54bf512f72da1c39a3a3206fff6da7f955"
+                "reference": "13ed1f7a044847aeccb3eb809c99d4feca1346b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/groton-school/slim-oauth2-api-proxy/zipball/6b433c54bf512f72da1c39a3a3206fff6da7f955",
-                "reference": "6b433c54bf512f72da1c39a3a3206fff6da7f955",
+                "url": "https://api.github.com/repos/groton-school/slim-oauth2-api-proxy/zipball/13ed1f7a044847aeccb3eb809c99d4feca1346b7",
+                "reference": "13ed1f7a044847aeccb3eb809c99d4feca1346b7",
                 "shasum": ""
             },
             "require": {
                 "dflydev/fig-cookies": "^3.2",
                 "groton-school/oauth2-canvaslms": "^1.1",
-                "groton-school/slim-norms": "^2.0",
+                "groton-school/slim-norms": "^2.1",
                 "league/oauth2-client": "^2.8",
                 "league/uri": "^7.5",
                 "odan/session": "^6.4",
@@ -769,9 +769,9 @@
             "description": "Server-side actions and routes for authenticating to and accessing an REST API from a web client",
             "support": {
                 "issues": "https://github.com/groton-school/slim-oauth2-api-proxy/issues",
-                "source": "https://github.com/groton-school/slim-oauth2-api-proxy/tree/v3.0.1"
+                "source": "https://github.com/groton-school/slim-oauth2-api-proxy/tree/v3.1.2"
             },
-            "time": "2025-09-18T23:59:23+00:00"
+            "time": "2025-09-19T12:23:36+00:00"
         },
         {
             "name": "grpc/grpc",

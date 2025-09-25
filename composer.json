@@ -1,28 +1,39 @@
 {
-    "name": "groton-school/slim-oauth2-api-proxy-gae-repository",
-    "description": "Firestore access token repository for Slim OAuth2 API proxy running on Google App Engine",
-    "license": "GPL-3.0",
-    "authors": [
-        {
-            "name": "Seth Battis",
-            "email": "sbattis@groton.org"
-        }
-    ],
-    "require": {
-        "groton-school/slim-oauth2-api-proxy": "^3.0.1",
-        "google/cloud-firestore": "^1.53",
-        "psr/http-message": "^2.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "GrotonSchool\\Slim\\OAuth2\\APIProxy\\GAE\\": "src/"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.87",
-        "marcocesarato/php-conventional-changelog": "^1.17"
-    },
-    "version": "1.0.1"
+  "name": "groton-school/slim-oauth2-api-proxy-gae-repository",
+  "description": "Firestore access token repository for Slim OAuth2 API proxy running on Google App Engine",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Seth Battis",
+      "email": "sbattis@groton.org"
+    }
+  ],
+  "require": {
+    "groton-school/slim-oauth2-api-proxy": "^3.0.1",
+    "google/cloud-firestore": "^1.53",
+    "psr/http-message": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GrotonSchool\\Slim\\OAuth2\\APIProxy\\GAE\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.87",
+    "marcocesarato/php-conventional-changelog": "^1.17"
+  },
+  "scripts": {
+    "release": [
+      "conventional-changelog -c",
+      "git push",
+      "git push --tags",
+      "git checkout main",
+      "git merge dev",
+      "git push",
+      "git checkout dev"
+    ]
+  },
+  "version": "1.0.1"
 }

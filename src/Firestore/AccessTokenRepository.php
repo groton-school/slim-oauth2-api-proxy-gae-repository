@@ -41,7 +41,7 @@ class AccessTokenRepository extends AbstractAccessTokenRepository
             );
             $snapshot = $document->snapshot();
             if ($snapshot->exists()) {
-                return new AccessToken($snapshot->data());
+                return $this->refresh(new AccessToken($snapshot->data()));
             }
         } catch (Exception $_) {
             // do nothing

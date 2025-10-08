@@ -21,8 +21,8 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
-    "friendsofphp/php-cs-fixer": "^3.87",
-    "marcocesarato/php-conventional-changelog": "^1.17"
+    "friendsofphp/php-cs-fixer": "*",
+    "marcocesarato/php-conventional-changelog": "*"
   },
   "scripts": {
     "release": [
@@ -35,5 +35,8 @@
       "git checkout dev"
     ]
   },
-  "version": "1.0.1"
+  "version": "1.0.1",
+  "config": {
+    "sort-packages": true
+  }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f9cd9729a9a330292c0f285bc77f1a0",
+    "content-hash": "19d141fb9a560179df7159fe05df6a6a",
     "packages": [
         {
             "name": "brick/math",
@@ -582,16 +582,16 @@
         },
         {
             "name": "google/protobuf",
-            "version": "v4.32.1",
+            "version": "v4.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "c4ed1c1f9bbc1e91766e2cd6c0af749324fe87cb"
+                "reference": "b50269e23204e5ae859a326ec3d90f09efe3047d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/c4ed1c1f9bbc1e91766e2cd6c0af749324fe87cb",
-                "reference": "c4ed1c1f9bbc1e91766e2cd6c0af749324fe87cb",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/b50269e23204e5ae859a326ec3d90f09efe3047d",
+                "reference": "b50269e23204e5ae859a326ec3d90f09efe3047d",
                 "shasum": ""
             },
             "require": {
@@ -620,9 +620,9 @@
                 "proto"
             ],
             "support": {
-                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.32.1"
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.33.0"
             },
-            "time": "2025-09-14T05:14:52+00:00"
+            "time": "2025-10-15T20:10:28+00:00"
         },
         {
             "name": "groton-school/oauth2-canvaslms",
@@ -674,16 +674,16 @@
         },
         {
             "name": "groton-school/slim-norms",
-            "version": "2.1.1",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/groton-school/slim-norms.git",
-                "reference": "b5afd522f3c3d1aa764219e9b09db334f62c6988"
+                "reference": "4472f982a56905f24412114eccd3491aae05d73f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/groton-school/slim-norms/zipball/b5afd522f3c3d1aa764219e9b09db334f62c6988",
-                "reference": "b5afd522f3c3d1aa764219e9b09db334f62c6988",
+                "url": "https://api.github.com/repos/groton-school/slim-norms/zipball/4472f982a56905f24412114eccd3491aae05d73f",
+                "reference": "4472f982a56905f24412114eccd3491aae05d73f",
                 "shasum": ""
             },
             "require": {
@@ -693,8 +693,8 @@
                 "slim/slim": "^4.12"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.76",
-                "marcocesarato/php-conventional-changelog": "^1.17"
+                "friendsofphp/php-cs-fixer": "*",
+                "marcocesarato/php-conventional-changelog": "*"
             },
             "type": "library",
             "autoload": {
@@ -715,28 +715,28 @@
             "description": "Define some normal interfaces and abstract classes for working with the Slim Framework",
             "support": {
                 "issues": "https://github.com/groton-school/slim-norms/issues",
-                "source": "https://github.com/groton-school/slim-norms/tree/v2.1.1"
+                "source": "https://github.com/groton-school/slim-norms/tree/v2.2.0"
             },
-            "time": "2025-09-19T01:23:33+00:00"
+            "time": "2025-10-15T19:06:03+00:00"
         },
         {
             "name": "groton-school/slim-oauth2-api-proxy",
-            "version": "3.1.3",
+            "version": "3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/groton-school/slim-oauth2-api-proxy.git",
-                "reference": "8b24af7a12c0b852ad4448b782c69a75f2565b96"
+                "reference": "cb299b2344f24d5018110092a999ea746ab69706"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/groton-school/slim-oauth2-api-proxy/zipball/8b24af7a12c0b852ad4448b782c69a75f2565b96",
-                "reference": "8b24af7a12c0b852ad4448b782c69a75f2565b96",
+                "url": "https://api.github.com/repos/groton-school/slim-oauth2-api-proxy/zipball/cb299b2344f24d5018110092a999ea746ab69706",
+                "reference": "cb299b2344f24d5018110092a999ea746ab69706",
                 "shasum": ""
             },
             "require": {
                 "dflydev/fig-cookies": "^3.2",
                 "groton-school/oauth2-canvaslms": "^1.1",
-                "groton-school/slim-norms": "^2.1",
+                "groton-school/slim-norms": "^2.2",
                 "league/oauth2-client": "^2.8",
                 "league/uri": "^7.5",
                 "odan/session": "^6.4",
@@ -748,8 +748,8 @@
                 "slim/slim": "^4.12"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.76",
-                "marcocesarato/php-conventional-changelog": "^1.17"
+                "friendsofphp/php-cs-fixer": "*",
+                "marcocesarato/php-conventional-changelog": "*"
             },
             "type": "library",
             "autoload": {
@@ -770,9 +770,9 @@
             "description": "Server-side actions and routes for authenticating to and accessing an REST API from a web client",
             "support": {
                 "issues": "https://github.com/groton-school/slim-oauth2-api-proxy/issues",
-                "source": "https://github.com/groton-school/slim-oauth2-api-proxy/tree/v3.1.3"
+                "source": "https://github.com/groton-school/slim-oauth2-api-proxy/tree/v3.1.4"
             },
-            "time": "2025-10-08T17:47:43+00:00"
+            "time": "2025-10-24T13:56:35+00:00"
         },
         {
             "name": "grpc/grpc",
@@ -1145,16 +1145,16 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v2.0.5",
+            "version": "v2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "3832547db6e0e2f8bb03d4093857b378c66eceed"
+                "reference": "038ce42edee619599a1debb7e81d7b3759492819"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/3832547db6e0e2f8bb03d4093857b378c66eceed",
-                "reference": "3832547db6e0e2f8bb03d4093857b378c66eceed",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/038ce42edee619599a1debb7e81d7b3759492819",
+                "reference": "038ce42edee619599a1debb7e81d7b3759492819",
                 "shasum": ""
             },
             "require": {
@@ -1202,7 +1202,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2025-09-22T17:29:40+00:00"
+            "time": "2025-10-09T13:42:30+00:00"
         },
         {
             "name": "league/oauth2-client",
@@ -3120,16 +3120,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.88.2",
+            "version": "v3.89.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "a8d15584bafb0f0d9d938827840060fd4a3ebc99"
+                "reference": "f34967da2866ace090a2b447de1f357356474573"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/a8d15584bafb0f0d9d938827840060fd4a3ebc99",
-                "reference": "a8d15584bafb0f0d9d938827840060fd4a3ebc99",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/f34967da2866ace090a2b447de1f357356474573",
+                "reference": "f34967da2866ace090a2b447de1f357356474573",
                 "shasum": ""
             },
             "require": {
@@ -3144,7 +3144,6 @@
                 "php": "^7.4 || ^8.0",
                 "react/child-process": "^0.6.6",
                 "react/event-loop": "^1.5",
-                "react/promise": "^3.3",
                 "react/socket": "^1.16",
                 "react/stream": "^1.4",
                 "sebastian/diff": "^4.0.6 || ^5.1.1 || ^6.0.2 || ^7.0",
@@ -3212,7 +3211,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.88.2"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.89.1"
             },
             "funding": [
                 {
@@ -3220,7 +3219,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-09-27T00:24:15+00:00"
+            "time": "2025-10-24T12:05:10+00:00"
         },
         {
             "name": "marcocesarato/php-conventional-changelog",
